@@ -1,0 +1,17 @@
+
+User              nobody;
+Daemon            on;
+Master            off;
+WorkerProcesses   2;
+
+ErrorLog          /home/devour/logs/error.log;
+Pid               /home/devour/logs/devour.pid;
+
+Network {
+    Connections        10240;
+    MultiAccept        on;
+    Use                tcp;
+    AcceptMutex        on;
+    AcceptMutexDelay   400ms;
+    DebugConnection    127.0.0.1;
+}

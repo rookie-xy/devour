@@ -1,0 +1,241 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CR	core/core.go	/^    LF   =  byte('\\x0a');$/;"	v
+CRLF	core/core.go	/^    CR   =  byte('\\x0d');$/;"	v
+DVR_CONF_MODULE	types/conf.go	/^    DVR_CORE_MODULE   = 0x45524F43$/;"	c
+DVR_CORE_MODULE	types/conf.go	/^const ($/;"	c
+DVR_HTTP_MODULE	types/http.go	/^const ($/;"	c
+DVR_NETWORK_MODULE	types/network.go	/^const ($/;"	c
+DvrAcceptMutex	modules/DvrNetworkCoreModule.go	/^    DvrUse               = DvrStrType{ DvrSizeof("Use") - 1,              "Use"              };$/;"	v
+DvrAcceptMutexDelay	modules/DvrNetworkCoreModule.go	/^    DvrAcceptMutex       = DvrStrType{ DvrSizeof("AcceptMutex") - 1,      "AcceptMutex"      };$/;"	v
+DvrAgain	core/core.go	/^    DvrError = -1;$/;"	v
+DvrAnyConf	types/conf.go	/^    DvrMainConf       =  0x01000000$/;"	c
+DvrArgumentNumber	core/conf.go	/^var DvrArgumentNumber = []uint{$/;"	v
+DvrArrayType	types/array.go	/^type DvrArrayType struct {$/;"	t
+DvrBufType	types/buffer.go	/^type DvrBufType struct {$/;"	t
+DvrCcf	types/conf.go	/^var ($/;"	v
+DvrCloseFile	core/file.go	/^func DvrCloseFile() int {$/;"	f
+DvrCloseFileName	core/file.go	/^    DvrFdStatName   = "fd.Stat()";$/;"	v
+DvrCommandType	types/core.go	/^type DvrCommandType struct {$/;"	t
+DvrConfAny	types/conf.go	/^    DvrConfMore1      =  0x00000800$/;"	c
+DvrConfBlock	types/conf.go	/^    DvrConfAny        =  0x00000400$/;"	c
+DvrConfBlockDone	types/conf.go	/^const ($/;"	c
+DvrConfCommands	modules/DvrConfModule.go	/^var DvrConfCommands = []DvrCommandType{$/;"	v
+DvrConfError	types/conf.go	/^var  DvrConfError string = "-1";$/;"	v
+DvrConfFileDone	types/conf.go	/^    DvrConfBlockDone = 1$/;"	c
+DvrConfFileType	types/conf.go	/^type DvrConfFileType struct {$/;"	t
+DvrConfFlag	types/conf.go	/^    DvrConfBlock      =  0x00000100$/;"	c
+DvrConfFullName	core/conf.go	/^func DvrConfFullName(cycle *DvrCycleType, name *DvrStrType) int {$/;"	f
+DvrConfHandleFunc	types/conf.go	/^type DvrConfHandleFunc func(cf *DvrConfType, dummy *DvrCommandType, conf DvrVoidType) string;$/;"	t
+DvrConfInclude	modules/DvrConfModule.go	/^func DvrConfInclude(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrConfModule	modules/DvrConfModule.go	/^var DvrConfModule = DvrMoudleType{$/;"	v
+DvrConfMore1	types/conf.go	/^    DvrConfMore2      =  0x00001000$/;"	c
+DvrConfMore2	types/conf.go	/^    DvrConfTake12     =  (DvrConfTake1|DvrConfTake2)$/;"	c
+DvrConfNoargs	types/conf.go	/^const ($/;"	c
+DvrConfOk	types/conf.go	/^var  DvrConfOk string = "0";$/;"	v
+DvrConfParse	core/conf.go	/^func DvrConfParse(cf *DvrConfType, filename *DvrStrType) DvrVoidType {$/;"	f
+DvrConfParseHandleFunc	types/conf.go	/^type DvrConfParseHandleFunc func(cf *DvrConfType, filename *DvrStrType) DvrVoidType;$/;"	t
+DvrConfPath	core/include.go	/^    DvrPrefix   = "usr\/local\/devour\/"$/;"	v
+DvrConfReadToken	core/conf.go	/^func DvrConfReadToken(cf *DvrConfType) int {$/;"	f
+DvrConfSetFlagSlot	types/conf.go	/^func DvrConfSetFlagSlot(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrConfSetMsecSlot	types/conf.go	/^func DvrConfSetMsecSlot(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrConfSetNumSlot	types/conf.go	/^func DvrConfSetNumSlot(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrConfSetStrSlot	types/conf.go	/^func DvrConfSetStrSlot(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrConfTake1	types/conf.go	/^    DvrConfNoargs     =  0x00000001$/;"	c
+DvrConfTake12	types/conf.go	/^    DvrConfTake7      =  0x00000080$/;"	c
+DvrConfTake2	types/conf.go	/^    DvrConfTake1      =  0x00000002$/;"	c
+DvrConfTake3	types/conf.go	/^    DvrConfTake2      =  0x00000004$/;"	c
+DvrConfTake4	types/conf.go	/^    DvrConfTake3      =  0x00000008$/;"	c
+DvrConfTake5	types/conf.go	/^    DvrConfTake4      =  0x00000010$/;"	c
+DvrConfTake6	types/conf.go	/^    DvrConfTake5      =  0x00000020$/;"	c
+DvrConfTake7	types/conf.go	/^    DvrConfTake6      =  0x00000040$/;"	c
+DvrConfType	types/conf.go	/^type DvrConfType struct {$/;"	t
+DvrConfUnset	types/conf.go	/^const ($/;"	c
+DvrConnections	modules/DvrNetworkCoreModule.go	/^var ($/;"	v
+DvrCore	modules/DvrCoreModule.go	/^var ($/;"	v
+DvrCoreCommands	modules/DvrCoreModule.go	/^var DvrCoreCommands = []DvrCommandType{$/;"	v
+DvrCoreConfType	types/cycle.go	/^type DvrCoreConfType struct {$/;"	t
+DvrCoreModule	modules/DvrCoreModule.go	/^var DvrCoreModule = DvrMoudleType{$/;"	v
+DvrCoreModuleCreateConf	modules/DvrCoreModule.go	/^func DvrCoreModuleCreateConf(cycle *DvrCycleType) DvrVoidType {$/;"	f
+DvrCoreModuleCtx	modules/DvrCoreModule.go	/^var DvrCoreModuleCtx = DvrCoreModuleType{$/;"	v
+DvrCoreModuleInitConf	modules/DvrCoreModule.go	/^func DvrCoreModuleInitConf(cycle *DvrCycleType, conf DvrVoidType) string {$/;"	f
+DvrCoreModuleType	types/core.go	/^type DvrCoreModuleType struct {$/;"	t
+DvrCreateArray	core/array.go	/^func DvrCreateArray(n int) *DvrArrayType {$/;"	f
+DvrCreateBuffer	core/buffer.go	/^func DvrCreateBuffer(size int) *DvrBufType {$/;"	f
+DvrCreateConfFunc	types/core.go	/^type DvrCreateConfFunc func(cycle *DvrCycleType) DvrVoidType;$/;"	t
+DvrCycle	core/cycle.go	/^var ($/;"	v
+DvrCycleType	types/cycle.go	/^type DvrCycleType struct {$/;"	t
+DvrDaemon	modules/DvrCoreModule.go	/^    DvrUser            = DvrStrType{ DvrSizeof("User") - 1,            "User"            };$/;"	v
+DvrDaemonized	core/process.go	/^var DvrDaemonized int;$/;"	v
+DvrDebugConnection	modules/DvrNetworkCoreModule.go	/^    DvrAcceptMutexDelay  = DvrStrType{ DvrSizeof("AcceptMutexDelay") - 1, "AcceptMutexDelay" };$/;"	v
+DvrDirectConf	types/conf.go	/^    DvrAnyConf        =  0x0F000000$/;"	c
+DvrErrType	core/errno.go	/^type DvrErrType int;$/;"	t
+DvrErrlog	core/log.go	/^var DvrErrlog = DvrErrlogType{};$/;"	v
+DvrErrlogCommands	modules/DvrErrlogModule.go	/^var DvrErrlogCommands = []DvrCommandType{$/;"	v
+DvrErrlogFile	modules/DvrErrlogModule.go	/^var DvrErrlogFile = DvrStrType{ DvrSizeof("ErrorLog") - 1, "ErrorLog" };$/;"	v
+DvrErrlogHandleFunc	types/log.go	/^type DvrErrlogHandleFunc func(ctx DvrVoidType, buf string, len int) string;$/;"	t
+DvrErrlogModule	modules/DvrErrlogModule.go	/^var DvrErrlogModule = DvrMoudleType{$/;"	v
+DvrErrlogModuleCtx	modules/DvrErrlogModule.go	/^var DvrErrlogModuleCtx = DvrCoreModuleType{$/;"	v
+DvrErrlogPrint	core/log.go	/^func DvrErrlogPrint(level int, log *DvrErrlogType, err DvrErrType,$/;"	f
+DvrErrlogPrintCore	core/log.go	/^func DvrErrlogPrintCore(level int, log *DvrErrlogType, err DvrErrType,$/;"	f
+DvrErrlogType	types/log.go	/^type DvrErrlogType struct {$/;"	t
+DvrErrlogWrite	core/log.go	/^func DvrErrlogWrite(log *DvrErrlogType, errstr []byte, len int) {$/;"	f
+DvrError	core/core.go	/^    DvrOk    =  0;$/;"	v
+DvrFdStat	core/file.go	/^func DvrFdStat(fd *File, stat *DvrFileStatType) error {$/;"	f
+DvrFdStatName	core/file.go	/^    DvrOpenFileName = "os.Openfile()";$/;"	v
+DvrFileError	core/file.go	/^    DvrFileInvalid  = -1;$/;"	c
+DvrFileFlag	core/file.go	/^    DvrFileError    = -1;$/;"	c
+DvrFileInvalid	core/file.go	/^const ($/;"	c
+DvrFileOpenMode	core/file.go	/^    DvrFileFlag     = O_CREATE|O_APPEND|O_RDWR;$/;"	c
+DvrFileSize	core/file.go	/^func DvrFileSize(stat *DvrFileStatType) int64 {$/;"	f
+DvrFileStatType	types/dirent.go	/^type DvrFileStatType struct {$/;"	t
+DvrFileType	types/file.go	/^type DvrFileType struct {$/;"	t
+DvrGetConf	core/conf.go	/^func DvrGetConf() *DvrCoreConfType {$/;"	f
+DvrGetOption	devour.go	/^func DvrGetOption(cycle *DvrCycleType, argc int, argv []string) int {$/;"	f
+DvrGetPid	core/process.go	/^func DvrGetPid() int {$/;"	f
+DvrHttp	modules/DvrHttpModule.go	/^var DvrHttp = DvrStrType{ DvrSizeof("Http") - 1, "Http" };$/;"	v
+DvrHttpBlock	http/http.go	/^func DvrHttpBlock(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrHttpCommands	modules/DvrHttpModule.go	/^var DvrHttpCommands = []DvrCommandType{$/;"	v
+DvrHttpConf	types/http.go	/^    DVR_HTTP_MODULE = 0x544E5645;$/;"	c
+DvrHttpConfType	types/http.go	/^type DvrHttpConfType struct {$/;"	t
+DvrHttpModule	modules/DvrHttpModule.go	/^var DvrHttpModule = DvrMoudleType{$/;"	v
+DvrHttpModuleCtx	modules/DvrHttpModule.go	/^var DvrHttpModuleCtx = DvrCoreModuleType{$/;"	v
+DvrInclude	modules/DvrConfModule.go	/^var DvrInclude = DvrStrType{ DvrSizeof("Include") - 1, "Include" };$/;"	v
+DvrInitConfFunc	types/core.go	/^type DvrInitConfFunc func(cycle *DvrCycleType, conf DvrVoidType) string;$/;"	t
+DvrInitCycle	core/cycle.go	/^func DvrInitCycle(oldCycle *DvrCycleType) *DvrCycleType {$/;"	f
+DvrInitMoudleFunc	types/core.go	/^type DvrInitMoudleFunc func(cycle *DvrCycleType) uint;$/;"	t
+DvrInitProcessFunc	types/core.go	/^type DvrInitProcessFunc func(cycle *DvrCycleType) uint;$/;"	t
+DvrLogAlert	types/log.go	/^    DvrLogEmerg   =  1;$/;"	v
+DvrLogCrit	types/log.go	/^    DvrLogAlert   =  2;$/;"	v
+DvrLogDebug	types/log.go	/^    DvrLogInfo    =  7;$/;"	v
+DvrLogEmerg	types/log.go	/^    DvrLogStderr  =  0;$/;"	v
+DvrLogErr	types/log.go	/^    DvrLogCrit    =  3;$/;"	v
+DvrLogInfo	types/log.go	/^    DvrLogNotice  =  6;$/;"	v
+DvrLogInitStderr	core/log.go	/^func DvrLogInitStderr() *DvrErrlogType {$/;"	f
+DvrLogNotice	types/log.go	/^    DvrLogWarn    =  5;$/;"	v
+DvrLogPid	core/log.go	/^var DvrLogPid int = DvrPid;$/;"	v
+DvrLogStderr	types/log.go	/^var ($/;"	v
+DvrLogTid	core/log.go	/^var DvrLogTid int = 0;$/;"	v
+DvrLogWarn	types/log.go	/^    DvrLogErr     =  4;$/;"	v
+DvrMainConf	types/conf.go	/^    DvrConfFlag       =  0x00000200$/;"	c
+DvrMasterProcess	modules/DvrCoreModule.go	/^    DvrDaemon          = DvrStrType{ DvrSizeof("Daemon") - 1,          "Daemon"          };$/;"	v
+DvrMasterProcessCycle	core/process.go	/^func DvrMasterProcessCycle(cycle *DvrCycleType) {$/;"	f
+DvrMaxModule	devour.go	/^var ($/;"	v
+DvrMaxSockets	devour.go	/^    DvrMaxModule  uint;$/;"	v
+DvrMemZero	core/string.go	/^func DvrMemZero() {$/;"	f
+DvrModules	autoconf/module.go	/^var DvrModules = []*DvrMoudleType{$/;"	v
+DvrMoudleType	types/core.go	/^type DvrMoudleType struct {$/;"	t
+DvrMultiAccept	modules/DvrNetworkCoreModule.go	/^    DvrConnections       = DvrStrType{ DvrSizeof("Connections") - 1,      "Connections"      };$/;"	v
+DvrNcf	types/conf.go	/^    DvrCcf  DvrCoreConfType;$/;"	v
+DvrNetwork	modules/DvrNetworkModule.go	/^var DvrNetwork = DvrStrType{ DvrSizeof("Network") - 1, "Network" };$/;"	v
+DvrNetworkBlock	network/network.go	/^func DvrNetworkBlock(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrNetworkCommands	modules/DvrNetworkModule.go	/^var DvrNetworkCommands = []DvrCommandType{$/;"	v
+DvrNetworkConf	types/network.go	/^    DVR_NETWORK_MODULE = 0x544E5645;$/;"	c
+DvrNetworkConfType	types/network.go	/^type DvrNetworkConfType struct {$/;"	t
+DvrNetworkConnections	modules/DvrNetworkCoreModule.go	/^func DvrNetworkConnections(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrNetworkCore	modules/DvrNetworkCoreModule.go	/^var DvrNetworkCore = DvrStrType{ DvrSizeof("Network") - 1, "Network" };$/;"	v
+DvrNetworkCoreCommands	modules/DvrNetworkCoreModule.go	/^var DvrNetworkCoreCommands = []DvrCommandType{$/;"	v
+DvrNetworkCoreModule	modules/DvrNetworkCoreModule.go	/^var DvrNetworkCoreModule = DvrMoudleType{$/;"	v
+DvrNetworkCoreModuleCreateConf	modules/DvrNetworkCoreModule.go	/^func DvrNetworkCoreModuleCreateConf(cycle *DvrCycleType) DvrVoidType {$/;"	f
+DvrNetworkCoreModuleCtx	modules/DvrNetworkCoreModule.go	/^var DvrNetworkCoreModuleCtx = DvrCoreModuleType{$/;"	v
+DvrNetworkCoreModuleInitConf	modules/DvrNetworkCoreModule.go	/^func DvrNetworkCoreModuleInitConf(cycle *DvrCycleType, conf DvrVoidType) string {$/;"	f
+DvrNetworkDebugConnection	modules/DvrNetworkCoreModule.go	/^func DvrNetworkDebugConnection(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrNetworkMaxModule	network/network.go	/^var DvrNetworkMaxModule uint;$/;"	v
+DvrNetworkModule	modules/DvrNetworkModule.go	/^var DvrNetworkModule = DvrMoudleType{$/;"	v
+DvrNetworkModuleCtx	modules/DvrNetworkModule.go	/^var DvrNetworkModuleCtx = DvrCoreModuleType{$/;"	v
+DvrNetworkUse	modules/DvrNetworkCoreModule.go	/^func DvrNetworkUse(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrNilCommand	types/conf.go	/^    DvrNilString  = DvrStrType{0, nil};$/;"	v
+DvrNilString	types/conf.go	/^var ($/;"	v
+DvrOk	core/core.go	/^var ($/;"	v
+DvrOpenFileName	core/file.go	/^var ($/;"	v
+DvrOpenFileType	types/conf.go	/^type DvrOpenFileType struct {$/;"	t
+DvrOsDaemon	core/daemon.go	/^func DvrOsDaemon(log *DvrErrlogType) int {$/;"	f
+DvrOsInit	core/os.go	/^func DvrOsInit(log *DvrErrlogType) int {$/;"	f
+DvrOsIoType	types/os.go	/^type DvrOsIoType struct {$/;"	t
+DvrOsStatus	core/os.go	/^func DvrOsStatus(log *DvrErrlogType) {$/;"	f
+DvrPid	core/process.go	/^var DvrPid int;$/;"	v
+DvrPidFile	modules/DvrCoreModule.go	/^    DvrWorkerProcesses = DvrStrType{ DvrSizeof("WorkerProcesses") - 1, "WorkerProcesses" };$/;"	v
+DvrPidPath	core/include.go	/^    DvrConfPath = "usr\/local\/devour\/devour.conf"$/;"	v
+DvrPrefix	core/include.go	/^var ($/;"	v
+DvrProcess	core/process.go	/^var DvrProcess int;$/;"	v
+DvrProcessMaster	core/process.go	/^    DvrProcessSingle = 0;$/;"	c
+DvrProcessSingle	core/process.go	/^const ($/;"	c
+DvrProcessWorker	core/process.go	/^    DvrProcessMaster = 1;$/;"	c
+DvrReadFile	core/file.go	/^func DvrReadFile(file *DvrFileType, buf []byte, size int, offset int64) int {$/;"	f
+DvrRecvChainHandleFunc	types/os.go	/^type DvrRecvChainHandleFunc func(cycle *DvrCycleType) int;$/;"	t
+DvrRecvHandleFunc	types/os.go	/^type DvrRecvHandleFunc func(cycle *DvrCycleType) int;$/;"	t
+DvrSaveOption	devour.go	/^func DvrSaveOption(cycle *DvrCycleType, argc int, argv []string) int {$/;"	f
+DvrSendChainHandleFunc	types/os.go	/^type DvrSendChainHandleFunc func(cycle *DvrCycleType) int;$/;"	t
+DvrSendHandleFunc	types/os.go	/^type DvrSendHandleFunc func(cycle *DvrCycleType) int;$/;"	t
+DvrSetErrlog	modules/DvrErrlogModule.go	/^func DvrSetErrlog(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrSetFunc	types/core.go	/^type DvrSetFunc func(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string;$/;"	t
+DvrSetUser	modules/DvrCoreModule.go	/^func DvrSetUser(cf *DvrConfType, cmd *DvrCommandType, conf DvrVoidType) string {$/;"	f
+DvrSingleProcessCycel	core/process.go	/^func DvrSingleProcessCycel(cycle *DvrCycleType) {$/;"	f
+DvrSizeof	types/conf.go	/^func DvrSizeof(v string) int {$/;"	f
+DvrStderr	core/log.go	/^var DvrStderr = &DvrOpenFileType{};$/;"	v
+DvrStrType	types/string.go	/^type DvrStrType struct {$/;"	t
+DvrTestConfig	core/cycle.go	/^var DvrTestConfig bool;$/;"	v
+DvrTimeInit	core/time.go	/^func DvrTimeInit() {$/;"	f
+DvrUse	modules/DvrNetworkCoreModule.go	/^    DvrMultiAccept       = DvrStrType{ DvrSizeof("MultiAccept") - 1,      "MultiAccept"      };$/;"	v
+DvrUser	modules/DvrCoreModule.go	/^    DvrCore            = DvrStrType{ DvrSizeof("Core") - 1,            "Core"            };$/;"	v
+DvrVoidType	types/types.go	/^type DvrVoidType interface{};$/;"	t
+DvrWorkerProcesses	modules/DvrCoreModule.go	/^    DvrMasterProcess   = DvrStrType{ DvrSizeof("Master") - 1,          "Master"          };$/;"	v
+ErrLogLevel	core/log.go	/^var ErrLogLevel = [...]string{ "stderr", "emerg", "alert", "crit", "error",$/;"	v
+LF	core/core.go	/^var ($/;"	v
+autoconf	autoconf/module.go	/^package autoconf$/;"	p
+core	core/array.go	/^package core$/;"	p
+core	core/buffer.go	/^package core$/;"	p
+core	core/chain.go	/^package core$/;"	p
+core	core/channel.go	/^package core$/;"	p
+core	core/conf.go	/^package core$/;"	p
+core	core/connection.go	/^package core$/;"	p
+core	core/core.go	/^package core$/;"	p
+core	core/cycle.go	/^package core$/;"	p
+core	core/daemon.go	/^package core$/;"	p
+core	core/dirent.go	/^package core$/;"	p
+core	core/errno.go	/^package core$/;"	p
+core	core/file.go	/^package core$/;"	p
+core	core/include.go	/^package core$/;"	p
+core	core/io.go	/^package core$/;"	p
+core	core/log.go	/^package core$/;"	p
+core	core/os.go	/^package core$/;"	p
+core	core/process.go	/^package core$/;"	p
+core	core/socket.go	/^package core$/;"	p
+core	core/string.go	/^package core$/;"	p
+core	core/time.go	/^package core$/;"	p
+define	define/define.go	/^package define$/;"	p
+define	define/define_core.go	/^package define$/;"	p
+http	http/http.go	/^package http$/;"	p
+http	http/http_core.go	/^package http$/;"	p
+main	devour.go	/^func main() {$/;"	f
+main	devour.go	/^package main$/;"	p
+modules	modules/DvrConfModule.go	/^package modules$/;"	p
+modules	modules/DvrCoreModule.go	/^package modules$/;"	p
+modules	modules/DvrErrlogModule.go	/^package modules$/;"	p
+modules	modules/DvrHttpModule.go	/^package modules$/;"	p
+modules	modules/DvrNetworkCoreModule.go	/^package modules$/;"	p
+modules	modules/DvrNetworkModule.go	/^package modules$/;"	p
+network	network/network.go	/^package network$/;"	p
+network	network/network_accept.go	/^package network$/;"	p
+network	network/network_core.go	/^package network$/;"	p
+network	network/network_posted.go	/^package network$/;"	p
+network	network/network_tcp.go	/^package network$/;"	p
+network	network/network_udp.go	/^package network$/;"	p
+types	types/array.go	/^package types$/;"	p
+types	types/buffer.go	/^package types$/;"	p
+types	types/conf.go	/^package types$/;"	p
+types	types/core.go	/^package types$/;"	p
+types	types/cycle.go	/^package types$/;"	p
+types	types/dirent.go	/^package types$/;"	p
+types	types/file.go	/^package types$/;"	p
+types	types/http.go	/^package types$/;"	p
+types	types/io.go	/^package types$/;"	p
+types	types/log.go	/^package types$/;"	p
+types	types/network.go	/^package types$/;"	p
+types	types/os.go	/^package types$/;"	p
+types	types/string.go	/^package types$/;"	p
+types	types/types.go	/^package types$/;"	p
